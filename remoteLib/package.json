@@ -5,6 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack",
+    "dev":"webpack-dev-server --config webpack.config.js --port 3002",
     "start": "serve -l tcp://localhost:3002 dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

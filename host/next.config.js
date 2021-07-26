@@ -4,7 +4,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const path = require("path");
 
 module.exports = {
-  future: { webpack5: true },
+  webpack5: true,
   webpack: (config, options) => {
     const { buildId, dev, isServer, defaultLoaders, webpack } = options;
     const mfConf = {
